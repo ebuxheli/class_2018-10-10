@@ -1,0 +1,17 @@
+---
+title: "class"
+author: "Enxhi Buxheli"
+date: "10/10/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+read_xls
+```
+
+```{r}
+
+```
+
