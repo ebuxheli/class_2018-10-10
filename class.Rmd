@@ -8,10 +8,13 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 
-read_xls
+library(tidyverse)
+library(dplyr)
+library(readxl)
 ```
 
 ```{r}
-
+x.17 <- read_excel("class_enrollment_summary_by_term_10.20.17.xlsx", skip = 3)
+x.18 <- read_excel("class_enrollment_summary_by_term_10.10.18.xlsx", skip = 3)
 ```
 
